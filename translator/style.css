@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+   /* background-color: #839feb;*/
+   background-image:url("image/808-440.jpg");
+   background-size:double;
+}
+  h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #000000;*/
+    color: rgb(0, 0, 0);
+  }
+.container {
+    background-color: rgb(202, 155, 155);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.language-selectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.translation-result {
+    margin-top: 20px;
+}
+.speech-recognition-btn {
+    background-color: #dc3545;
+    padding: 8px 15px;
+}
+
+.speech-recognition-btn:hover {
+    background-color: #c82333;
+}
+
+.listening {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+footer{
+    color: red;
+    text-align: center;
+   
+ 
+}
